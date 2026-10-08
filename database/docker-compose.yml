@@ -3,7 +3,6 @@
 services:
   redis:
     image: redis:7.4.8
-    container_name: redis
     ports:
       - "127.0.0.1:63799:6379"
     volumes:
