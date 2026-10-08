@@ -1,4 +1,4 @@
-name: webserver
+name: doco-cd-ct-article-webserver
 working_dir: webserver/
 compose_files:
   - docker-compose.yml
@@ -6,7 +6,7 @@ pull: true
 
 ---
 
-name: database
+name: doco-cd-ct-article-database
 working_dir: database/
 compose_files:
   - docker-compose.yml
