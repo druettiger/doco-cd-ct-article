@@ -3,7 +3,6 @@
 services:
   nginx:
     image: nginx:1.27
-    container_name: webserver
     ports:
       - "127.0.0.1:8080:80"
     volumes:
