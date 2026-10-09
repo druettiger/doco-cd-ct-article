@@ -8,6 +8,12 @@ services:
     volumes:
       - redis-data:/data
     restart: unless-stopped
+  redis2:
+    image: redis:7.4.8
+    volumes:
+      - redis-data-2:/data
+    restart: unless-stopped
 
 volumes:
   redis-data:
+  redis-data-2:
